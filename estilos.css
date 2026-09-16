@@ -50,11 +50,12 @@ html, body {
 /* ============================================================
    CARÁTULA — tres franjas: verde / blanco / verde
    ============================================================ */
-.caratula {
-    display: flex;
+.reveal .slides section.slide.caratula {
+    display: flex !important;
     flex-direction: column;
     width: 100%;
-    height: 1036px;
+    height: 996px;
+    min-height: 0;
 }
 
 /* --- Franja superior (institución) --- */
