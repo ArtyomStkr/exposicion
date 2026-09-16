@@ -83,12 +83,12 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 24px;
+    gap: 22px;
     padding: 30px 90px;
 }
 
 .caratula-main .logo img {
-    height: 250px;
+    height: 230px;
     object-fit: contain;
 }
 
@@ -105,42 +105,47 @@ html, body {
 }
 
 .caratula-main .project-title {
-    font-size: 44px;
+    font-size: 42px;
     font-weight: 700;
     line-height: 1.35;
     color: var(--incos-texto);
     max-width: 1500px;
 }
 
-/* --- Franja inferior (autor, tutor, ciudad) --- */
-.caratula-bottom {
-    background: linear-gradient(135deg, var(--incos-verde-osc) 0%, var(--incos-verde) 100%);
-    color: #ffffff;
-    padding: 26px 70px 22px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 14px;
-}
-
-.caratula-bottom .autores {
+/* --- Postulante / Tutor (sobre fondo blanco) --- */
+.caratula-main .autores {
     display: flex;
     gap: 120px;
+    margin-top: 6px;
+}
+
+.caratula-main .autores > div {
     font-size: 23px;
     font-weight: 600;
-}
-
-.caratula-bottom .autores > div {
+    color: var(--incos-texto);
     line-height: 1.5;
+    text-align: center;
 }
 
-.caratula-bottom .autores .label {
+.caratula-main .autores .label {
     display: block;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: #d9f7ce;
+    color: var(--incos-verde);
+    margin-bottom: 4px;
+}
+
+/* --- Franja inferior (grado + ciudad) --- */
+.caratula-bottom {
+    background: linear-gradient(135deg, var(--incos-verde-osc) 0%, var(--incos-verde) 100%);
+    color: #ffffff;
+    padding: 22px 70px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
 }
 
 .caratula-bottom .grado {
@@ -309,20 +314,4 @@ html, body {
     align-items: center;
     justify-content: center;
     margin-top: 2px;
-}
-
-/* ============================================================
-   PIE DE PÁGINA
-   ============================================================ */
-.pie {
-    position: absolute;
-    bottom: 14px;
-    left: 32px;
-    right: 32px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 15px;
-    color: #93a08f;
-    border-top: 1px solid #dfe9db;
-    padding-top: 8px;
 }
