@@ -777,3 +777,32 @@ html, body {
     from { transform: translate(-50%, -50%) rotate(0deg); }
     to { transform: translate(-50%, -50%) rotate(360deg); }
 }
+
+/* ============================================================
+   LOGO INSTITUCIONAL EN CADA DIAPOSITIVA + DIBUJOS SVG
+   ============================================================ */
+.mini-logo {
+    position: absolute;
+    z-index: 0;
+    top: 34px;
+    right: 44px;
+    width: 66px;
+    opacity: 0.35;
+    pointer-events: none;
+    animation: flotar-img 7s ease-in-out infinite;
+}
+
+.drawing {
+    position: absolute;
+    z-index: 0;
+    left: 30px;
+    bottom: 40px;
+    pointer-events: none;
+    opacity: 0.7;
+    animation: flotar 7s ease-in-out infinite;
+}
+
+/* Subrayado de progreso de reveal más estilizado */
+.reveal .progress span {
+    background: linear-gradient(90deg, var(--incos-verde), var(--incos-verde-claro));
+}
