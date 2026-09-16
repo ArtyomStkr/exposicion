@@ -327,3 +327,145 @@ html, body {
     justify-content: center;
     margin-top: 2px;
 }
+
+/* ============================================================
+   COLUMNAS DE TARJETAS (Tipo, Justificación, Scrumban)
+   ============================================================ */
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    width: 100%;
+}
+
+.card-t {
+    background: var(--incos-gris-bg);
+    border: 2px solid #d4ebcb;
+    border-radius: 14px;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-t .t {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--incos-verde);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid var(--incos-verde);
+}
+
+.card-t p {
+    font-size: 19px;
+    line-height: 1.45;
+    text-align: justify;
+    margin: 0;
+}
+
+/* ============================================================
+   FILAS DE PUNTO (PEST, Antecedentes, Investigación)
+   ============================================================ */
+.punto {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: var(--incos-gris-bg);
+    border-left: 6px solid var(--incos-verde);
+    border-radius: 12px;
+    padding: 14px 22px;
+    margin-bottom: 14px;
+    text-align: justify;
+    font-size: 21px;
+    line-height: 1.4;
+}
+
+.punto .badge {
+    flex: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--incos-verde) 0%, var(--incos-verde-osc) 100%);
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.punto h4 {
+    margin: 0 0 4px;
+    color: var(--incos-verde);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+/* ============================================================
+   ANÁLISIS FODA — matriz 2x2
+   ============================================================ */
+.foda-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 100%;
+}
+
+.foda {
+    background: var(--incos-gris-bg);
+    border: 2px solid #d4ebcb;
+    border-radius: 14px;
+    padding: 16px 22px;
+}
+
+.foda h4 {
+    margin: 0 0 10px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid currentColor;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.foda.f h4 { color: var(--incos-verde); }
+.foda.o h4 { color: #0f766e; }
+.foda.d h4 { color: #b45309; }
+.foda.a h4 { color: #b91c1c; }
+
+.foda ul {
+    margin: 0 0 0 18px;
+    padding: 0;
+    font-size: 17px;
+    line-height: 1.35;
+}
+
+.foda ul li {
+    margin-bottom: 6px;
+    text-align: justify;
+}
+
+/* ============================================================
+   FASES DEL DESARROLLO (Scrumban)
+   ============================================================ */
+.fases {
+    margin-top: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.fase {
+    background: var(--incos-verde-claro);
+    border: 2px solid var(--incos-verde);
+    color: var(--incos-verde);
+    border-radius: 999px;
+    padding: 7px 18px;
+    font-size: 16px;
+    font-weight: 600;
+}
