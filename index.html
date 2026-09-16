@@ -6,7 +6,7 @@
     <title>Diapositivas — Proyecto de Emprendimiento Productivo INCOS</title>
     <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
     <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/white.css">
-    <link rel="stylesheet" href="estilos.css?v=9">
+    <link rel="stylesheet" href="estilos.css?v=10">
 </head>
 <body>
 
@@ -15,6 +15,8 @@
 
         <!-- ============ CARÁTULA ============ -->
         <section class="slide caratula">
+            <div class="deco d1"></div>
+            <div class="deco d2"></div>
             <div class="caratula-top">
                 <div class="institucion">
                     Instituto Técnico Comercial Superior<br>
@@ -25,6 +27,7 @@
 
             <div class="caratula-main">
                 <div class="logo">
+                    <span class="logo-anillo"></span>
                     <img src="LOGO.png" alt="Logo INCOS">
                 </div>
                 <div class="project-type">Proyecto Emprendimiento Productivo</div>
@@ -52,34 +55,59 @@
             </div>
         </section>
 
-        <!-- ============ TIPO DE EMPRENDIMIENTO ============ -->
+        <!-- ============ INTRODUCCIÓN ============ -->
         <section class="slide">
+            <div class="deco d1"></div>
+            <div class="deco d3"></div>
+
             <div class="cabecera">
                 <div class="numero">01</div>
                 <div>
-                    <h2>Tipo de Emprendimiento</h2>
-                    <div class="subtitulo">Autoevaluación como Emprendedor</div>
+                    <h2>Introducción</h2>
+                    <div class="subtitulo">Sobre el proyecto</div>
                 </div>
             </div>
 
-            <div class="grid3">
-                <div class="card-t">
-                    <div class="t">Perfil del Emprendedor</div>
-                    <p>Fortalezas en desarrollo tecnológico, gestión de proyectos y comunicación, con orientación al perfeccionamiento y la innovación.</p>
+            <div class="intro-split">
+                <div class="intro-foto fragment fade-left">
+                    <span class="intro-anillo a1"></span>
+                    <span class="intro-anillo a2"></span>
+                    <img src="aran.png" alt="Aplicación móvil de arancel y tributos">
+                    <span class="foto-chip">App &middot; Arancel &amp; Tributos</span>
                 </div>
-                <div class="card-t">
-                    <div class="t">Tipo</div>
-                    <p>Iniciativa independiente del sector terciario (servicios digitales), de acceso abierto y gratuito con monetización por publicidad.</p>
-                </div>
-                <div class="card-t">
-                    <div class="t">Tamaño</div>
-                    <p>Pequeña empresa (DS N.º 3567 &middot; Ley N.º 947), de desarrollo unipersonal inicial, con apoyo de un asesor especializado en aduanas.</p>
+
+                <div class="intro-texto">
+                    <p class="fragment fade-up">
+                        <b>Aplicación móvil</b> para la consulta del arancel aduanero de Bolivia
+                        y el cálculo de tributos.
+                    </p>
+                    <p class="fragment fade-up">
+                        De <b>acceso gratuito</b>, dirigida a estudiantes y profesionales del
+                        comercio exterior y aduanas.
+                    </p>
+                    <p class="fragment fade-up">
+                        Búsqueda rápida y organizada de partidas arancelarias con
+                        <b>cálculo automatizado</b> de tributos.
+                    </p>
+                    <p class="fragment fade-up">
+                        Sustituye la consulta en libros físicos por una
+                        <b>herramienta digital</b> accesible y eficiente.
+                    </p>
                 </div>
             </div>
         </section>
 
         <!-- ============ ANÁLISIS PEST ============ -->
         <section class="slide">
+            <div class="deco d2"></div>
+            <svg class="deco-svg" viewBox="0 0 200 200" width="250" height="250" aria-hidden="true">
+                <g fill="none" stroke="#1a8c03" stroke-width="6" opacity="0.14">
+                    <circle cx="100" cy="100" r="48"></circle>
+                    <circle cx="100" cy="100" r="20"></circle>
+                    <path d="M100 0 v22 M100 178 v22 M0 100 h22 M178 100 h22 M37 37 l15 15 M148 148 l15 15 M163 37 l-15 15 M52 148 l-15 15"></path>
+                </g>
+            </svg>
+
             <div class="cabecera">
                 <div class="numero">02</div>
                 <div>
@@ -88,30 +116,54 @@
                 </div>
             </div>
 
-            <div class="punto">
+            <div class="punto fragment fade-up" data-fragment-index="1">
                 <span class="badge">P</span>
-                <div><h4>Político</h4> El gobierno impulsa la digitalización de servicios públicos y la Aduana Nacional moderniza sus sistemas de información.</div>
+                <div>
+                    <h4>Político</h4>
+                    El gobierno impulsa la digitalización de servicios públicos y la Aduana Nacional moderniza sus sistemas de información.
+                </div>
             </div>
-            <div class="punto">
+            <div class="punto fragment fade-up" data-fragment-index="2">
                 <span class="badge">E</span>
-                <div><h4>Económico</h4> El mercado de aplicaciones móviles crece; el acceso gratuito con publicidad reduce las barreras de entrada para los usuarios.</div>
+                <div>
+                    <h4>Económico</h4>
+                    El mercado de aplicaciones móviles crece y el acceso gratuito con publicidad reduce las barreras de entrada para los usuarios.
+                </div>
             </div>
-            <div class="punto">
+            <div class="punto fragment fade-up" data-fragment-index="3">
                 <span class="badge">S</span>
-                <div><h4>Social</h4> Estudiantes y profesionales de comercio exterior requieren información arancelaria frecuente; la consulta en papel resulta poco práctica.</div>
+                <div>
+                    <h4>Social</h4>
+                    Estudiantes y profesionales de comercio exterior requieren información arancelaria frecuente; la consulta en papel resulta poco práctica.
+                </div>
             </div>
-            <div class="punto">
+            <div class="punto fragment fade-up" data-fragment-index="4">
                 <span class="badge">T</span>
-                <div><h4>Tecnológico</h4> Las apps multiplataforma, las bases de datos y los buscadores eficientes facilitan soluciones accesibles desde cualquier dispositivo.</div>
+                <div>
+                    <h4>Tecnológico</h4>
+                    Las apps multiplataforma, las bases de datos y los buscadores eficientes facilitan soluciones accesibles desde cualquier dispositivo.
+                </div>
             </div>
-            <div class="punto">
+            <div class="punto fragment fade-up" data-fragment-index="5">
                 <span class="badge">L</span>
-                <div><h4>Legal</h4> Sistema regulado por la Ley General de Aduanas N.º 1990 y el Sistema Armonizado; desde 2026 los libros arancelarios son de libre acceso.</div>
+                <div>
+                    <h4>Legal</h4>
+                    Sistema regulado por la Ley General de Aduanas N.º 1990 y el Sistema Armonizado; desde 2026 los libros arancelarios son de libre acceso.
+                </div>
             </div>
         </section>
 
         <!-- ============ ANÁLISIS FODA ============ -->
         <section class="slide">
+            <div class="deco d1"></div>
+            <svg class="deco-svg" viewBox="0 0 200 200" width="240" height="240" aria-hidden="true">
+                <g fill="none" stroke="#1a8c03" stroke-width="6" opacity="0.12">
+                    <circle cx="100" cy="100" r="70"></circle>
+                    <circle cx="100" cy="100" r="45"></circle>
+                    <circle cx="100" cy="100" r="20"></circle>
+                </g>
+            </svg>
+
             <div class="cabecera">
                 <div class="numero">03</div>
                 <div>
@@ -121,7 +173,7 @@
             </div>
 
             <div class="foda-grid">
-                <div class="foda f">
+                <div class="foda f fragment fade-up" data-fragment-index="1">
                     <h4>Fortalezas</h4>
                     <ul>
                         <li>Sólida base técnica del emprendedor en apps móviles.</li>
@@ -130,7 +182,7 @@
                         <li>Acceso gratuito con monetización por publicidad.</li>
                     </ul>
                 </div>
-                <div class="foda o">
+                <div class="foda o fragment fade-up" data-fragment-index="2">
                     <h4>Oportunidades</h4>
                     <ul>
                         <li>Tendencia creciente de apps profesionales en comercio exterior.</li>
@@ -139,7 +191,7 @@
                         <li>Información arancelaria oficial gratuita desde la gestión 2026.</li>
                     </ul>
                 </div>
-                <div class="foda d">
+                <div class="foda d fragment fade-up" data-fragment-index="3">
                     <h4>Debilidades</h4>
                     <ul>
                         <li>Recursos limitados para inversión inicial.</li>
@@ -147,7 +199,7 @@
                         <li>Dependencia del esfuerzo individual del emprendedor.</li>
                     </ul>
                 </div>
-                <div class="foda a">
+                <div class="foda a fragment fade-up" data-fragment-index="4">
                     <h4>Amenazas</h4>
                     <ul>
                         <li>Competencia con otras apps de consulta arancelaria.</li>
@@ -161,6 +213,8 @@
 
         <!-- ============ OBJETIVOS ============ -->
         <section class="slide">
+            <div class="deco d3"></div>
+
             <div class="cabecera">
                 <div class="numero">04</div>
                 <div>
@@ -169,70 +223,45 @@
                 </div>
             </div>
 
-            <div class="objetivo-general">
+            <div class="objetivo-general fragment fade-right">
                 <span class="lbl">Objetivo General</span>
                 <p>
                     Desarrollar una aplicación móvil para la consulta de partidas del arancel aduanero de Bolivia y el cálculo de tributos correspondientes, con el propósito de optimizar el acceso a información arancelaria para estudiantes, profesionales del área de comercio exterior y demás usuarios interesados, mediante una herramienta digital accesible y de uso eficiente.
                 </p>
             </div>
 
-            <h3 class="objetivos-titulo">Objetivos Específicos</h3>
+            <h3 class="objetivos-titulo fragment fade-in">Objetivos Específicos</h3>
             <div class="objetivos-especificos">
-                <div class="obj-item">
+                <div class="obj-item fragment fade-up" data-fragment-index="1">
                     <span class="n">1</span>
                     <span>Facilitar la búsqueda y consulta de códigos arancelarios mediante una interfaz amigable que optimice la experiencia de uso del usuario.</span>
                 </div>
-                <div class="obj-item">
+                <div class="obj-item fragment fade-up" data-fragment-index="2">
                     <span class="n">2</span>
                     <span>Automatizar la estimación de tributos aduaneros mediante un módulo de cálculo basado en los datos ingresados por el usuario.</span>
                 </div>
-                <div class="obj-item">
+                <div class="obj-item fragment fade-up" data-fragment-index="3">
                     <span class="n">3</span>
                     <span>Establecer mecanismos de acceso digital a la información arancelaria para reducir la dependencia de documentos impresos extensos.</span>
                 </div>
-                <div class="obj-item">
+                <div class="obj-item fragment fade-up" data-fragment-index="4">
                     <span class="n">4</span>
                     <span>Garantizar la robustez, seguridad e integridad de la información procesada mediante funcionalidades orientadas a la estabilidad operativa del sistema.</span>
                 </div>
-                <div class="obj-item">
+                <div class="obj-item fragment fade-up" data-fragment-index="5">
                     <span class="n">5</span>
                     <span>Evaluar la viabilidad técnica y funcional del emprendimiento para determinar su factibilidad de implementación en el contexto tecnológico y educativo nacional.</span>
                 </div>
             </div>
         </section>
 
-        <!-- ============ ANTECEDENTES ============ -->
-        <section class="slide">
-            <div class="cabecera">
-                <div class="numero">05</div>
-                <div>
-                    <h2>Antecedentes</h2>
-                    <div class="subtitulo">Desarrollo de la idea de negocio</div>
-                </div>
-            </div>
-
-            <div class="punto">
-                <span class="badge">01</span>
-                <div>El comercio exterior en Bolivia ha crecido de forma importante y la gestión aduanera es clave en la regulación de importaciones y exportaciones.</div>
-            </div>
-            <div class="punto">
-                <span class="badge">02</span>
-                <div>La consulta del arancel se realizaba mediante libros físicos extensos, un método lento y poco práctico para localizar información específica.</div>
-            </div>
-            <div class="punto">
-                <span class="badge">03</span>
-                <div>Desde la gestión 2026, la Aduana Nacional publica la documentación arancelaria oficial de forma gratuita en su portal web, pero aún resulta poco eficiente para consultas inmediatas.</div>
-            </div>
-            <div class="punto">
-                <span class="badge">04</span>
-                <div>En la región existen apps de consulta arancelaria; en Bolivia es casi inexistente la integración de consulta del arancel y cálculo de tributos.</div>
-            </div>
-        </section>
-
         <!-- ============ JUSTIFICACIÓN ============ -->
         <section class="slide">
+            <div class="deco d1"></div>
+            <div class="deco d2"></div>
+
             <div class="cabecera">
-                <div class="numero">06</div>
+                <div class="numero">05</div>
                 <div>
                     <h2>Justificación</h2>
                     <div class="subtitulo">Desarrollo de la idea de negocio</div>
@@ -240,49 +269,34 @@
             </div>
 
             <div class="grid3">
-                <div class="card-t">
+                <div class="card-t fragment fade-up" data-fragment-index="1">
                     <div class="t">Técnica</div>
                     <p>Desarrollo multiplataforma con Flutter y base de datos local SQLite, con consultas optimizadas e indexadas que permiten funcionamiento offline y cálculo inmediato de tributos.</p>
                 </div>
-                <div class="card-t">
+                <div class="card-t fragment fade-up" data-fragment-index="2">
                     <div class="t">Social</div>
                     <p>Facilita el acceso gratuito a información arancelaria para estudiantes y profesionales de aduanas, reduciendo las limitaciones económicas para obtenerla.</p>
                 </div>
-                <div class="card-t">
+                <div class="card-t fragment fade-up" data-fragment-index="3">
                     <div class="t">Económica</div>
                     <p>Solución de acceso gratuito sostenida por publicidad, introduciendo una alternativa tecnológica nacional con posibilidad de ampliarse a otros desarrollos.</p>
                 </div>
             </div>
         </section>
 
-        <!-- ============ METODOLOGÍA DE INVESTIGACIÓN ============ -->
-        <section class="slide">
-            <div class="cabecera">
-                <div class="numero">07</div>
-                <div>
-                    <h2>Metodología de Investigación</h2>
-                    <div class="subtitulo">Análisis documental del arancel aduanero</div>
-                </div>
-            </div>
-
-            <div class="punto">
-                <span class="badge">DOC</span>
-                <div><h4>Fuente principal</h4> Revisión y análisis del libro de aranceles de Bolivia para comprender la estructura de partidas, subpartidas arancelarias y derechos aplicables.</div>
-            </div>
-            <div class="punto">
-                <span class="badge">NOR</span>
-                <div><h4>Normativa</h4> Estudio de la Ley General de Aduanas N.º 1990 y del Sistema Armonizado de Designación y Codificación de Mercancías.</div>
-            </div>
-            <div class="punto">
-                <span class="badge">CTX</span>
-                <div><h4>Contexto</h4> Análisis de la información arancelaria oficial publicada por la Aduana Nacional de Bolivia desde la gestión 2026.</div>
-            </div>
-        </section>
-
         <!-- ============ METODOLOGÍA DE DESARROLLO ============ -->
         <section class="slide">
+            <div class="deco d2"></div>
+            <svg class="deco-svg" viewBox="0 0 200 200" width="250" height="250" aria-hidden="true">
+                <g fill="none" stroke="#1a8c03" stroke-width="6" opacity="0.12">
+                    <path d="M20 100 h60 M120 100 h60"></path>
+                    <rect x="55" y="55" width="90" height="90" rx="12"></rect>
+                    <path d="M100 40 v20 M100 140 v20 M40 100 h20 M140 100 h20"></path>
+                </g>
+            </svg>
+
             <div class="cabecera">
-                <div class="numero">08</div>
+                <div class="numero">06</div>
                 <div>
                     <h2>Metodología de Desarrollo</h2>
                     <div class="subtitulo">Scrumban — agilidad con flujo continuo</div>
@@ -290,29 +304,29 @@
             </div>
 
             <div class="grid3">
-                <div class="card-t">
+                <div class="card-t fragment fade-up" data-fragment-index="1">
                     <div class="t">Scrum</div>
                     <p>Sprints o ciclos cortos con objetivos claros y entregables verificables en cada iteración del proyecto.</p>
                 </div>
-                <div class="card-t">
+                <div class="card-t fragment fade-up" data-fragment-index="2">
                     <div class="t">Kanban</div>
                     <p>Tablero visual de tareas (por hacer, en curso, revisión, terminado) que muestra el avance del trabajo.</p>
                 </div>
-                <div class="card-t">
+                <div class="card-t fragment fade-up" data-fragment-index="3">
                     <div class="t">Adaptación</div>
                     <p>Flujo continuo con priorización del alcance y control visual del progreso en cada etapa.</p>
                 </div>
             </div>
 
             <div class="fases">
-                <span class="fase">Requisitos</span>
-                <span class="fase">Arquitectura</span>
-                <span class="fase">Base de datos</span>
-                <span class="fase">Datos arancelarios</span>
-                <span class="fase">Consulta</span>
-                <span class="fase">Cálculo</span>
-                <span class="fase">Pruebas</span>
-                <span class="fase">Entrega final</span>
+                <span class="fase fragment fade-in" data-fragment-index="4">Requisitos</span>
+                <span class="fase fragment fade-in" data-fragment-index="5">Arquitectura</span>
+                <span class="fase fragment fade-in" data-fragment-index="6">Base de datos</span>
+                <span class="fase fragment fade-in" data-fragment-index="7">Datos arancelarios</span>
+                <span class="fase fragment fade-in" data-fragment-index="8">Consulta</span>
+                <span class="fase fragment fade-in" data-fragment-index="9">Cálculo</span>
+                <span class="fase fragment fade-in" data-fragment-index="10">Pruebas</span>
+                <span class="fase fragment fade-in" data-fragment-index="11">Entrega final</span>
             </div>
         </section>
 
@@ -328,7 +342,8 @@
         touch: true,
         progress: false,
         slideNumber: true,
-        transition: 'slide',
+        transition: 'fade',
+        backgroundTransition: 'fade',
         width: 1920,
         height: 1080,
         margin: 0,
