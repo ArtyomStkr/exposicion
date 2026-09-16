@@ -1,0 +1,328 @@
+/*
+   estilos.css — Diapositivas INCOS (diseño profesional, estilo Canva)
+   Pantalla 16:9 (1920x1080) · color institucional #1a8c03
+*/
+
+:root {
+    --incos-verde: #1a8c03;
+    --incos-verde-osc: #0f5c02;
+    --incos-verde-claro: #eaf4e6;
+    --incos-gris-bg: #f4f7f3;
+    --incos-texto: #1b2838;
+}
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+.reveal {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--incos-texto);
+    --r-main-font-size: 24px;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+    font-family: inherit;
+    color: var(--incos-verde);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.reveal p {
+    margin: 0;
+}
+
+.slide {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+/* ============================================================
+   CARÁTULA — tres franjas: verde / blanco / verde
+   ============================================================ */
+.caratula {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1036px;
+}
+
+/* --- Franja superior (institución) --- */
+.caratula-top {
+    background: linear-gradient(135deg, var(--incos-verde) 0%, var(--incos-verde-osc) 100%);
+    color: #ffffff;
+    padding: 30px 60px 26px;
+    text-align: center;
+}
+
+.caratula-top .institucion {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.caratula-top .carrera {
+    margin-top: 8px;
+    font-size: 21px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    opacity: 0.92;
+}
+
+/* --- Centro (logo + tipo + título) --- */
+.caratula-main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 30px 90px;
+}
+
+.caratula-main .logo img {
+    height: 250px;
+    object-fit: contain;
+}
+
+.caratula-main .project-type {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--incos-verde);
+    background: var(--incos-verde-claro);
+    border: 2px solid var(--incos-verde);
+    border-radius: 999px;
+    padding: 10px 34px;
+}
+
+.caratula-main .project-title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.35;
+    color: var(--incos-texto);
+    max-width: 1500px;
+}
+
+/* --- Franja inferior (autor, tutor, ciudad) --- */
+.caratula-bottom {
+    background: linear-gradient(135deg, var(--incos-verde-osc) 0%, var(--incos-verde) 100%);
+    color: #ffffff;
+    padding: 26px 70px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.caratula-bottom .autores {
+    display: flex;
+    gap: 120px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.caratula-bottom .autores > div {
+    line-height: 1.5;
+}
+
+.caratula-bottom .autores .label {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #d9f7ce;
+}
+
+.caratula-bottom .grado {
+    font-size: 17px;
+}
+
+.caratula-bottom .ciudad {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+/* ============================================================
+   CABECERA — número + título + subtítulo
+   ============================================================ */
+.cabecera {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: 100%;
+    border-bottom: 5px solid var(--incos-verde);
+    padding-bottom: 18px;
+    margin-bottom: 36px;
+}
+
+.cabecera .numero {
+    flex: none;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--incos-verde) 0%, var(--incos-verde-osc) 100%);
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(26, 140, 3, 0.35);
+}
+
+.cabecera h2 {
+    margin: 0;
+    font-size: 46px;
+    line-height: 1.1;
+}
+
+.cabecera .subtitulo {
+    margin-top: 6px;
+    font-size: 19px;
+    color: #6b7a68;
+}
+
+/* ============================================================
+   INTRODUCCIÓN — tarjetas numeradas
+   ============================================================ */
+.intro-list {
+    list-style: none;
+    margin: 0;
+}
+
+.intro-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: var(--incos-gris-bg);
+    border-left: 8px solid var(--incos-verde);
+    border-radius: 14px;
+    padding: 20px 28px;
+    margin-bottom: 22px;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 1.45;
+}
+
+.intro-list li .num {
+    flex: none;
+    width: 48px;
+    height: 48px;
+    margin-top: 2px;
+    border-radius: 50%;
+    background: var(--incos-verde);
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-list li strong {
+    color: var(--incos-verde);
+}
+
+/* ============================================================
+   OBJETIVOS
+   ============================================================ */
+.objetivo-general {
+    background: linear-gradient(135deg, var(--incos-verde) 0%, var(--incos-verde-osc) 100%);
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 26px 36px;
+    margin-bottom: 32px;
+    text-align: justify;
+    box-shadow: 0 10px 24px rgba(26, 140, 3, 0.30);
+}
+
+.objetivo-general .lbl {
+    display: block;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #d9f5cf;
+    margin-bottom: 12px;
+}
+
+.objetivo-general p {
+    font-size: 26px;
+    line-height: 1.5;
+}
+
+.objetivo-general p strong {
+    color: #ffffff;
+}
+
+.objetivos-titulo {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--incos-verde);
+    margin: 0 0 18px;
+    letter-spacing: 0.04em;
+}
+
+.objetivos-especificos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    width: 100%;
+}
+
+.obj-item {
+    flex: 1 1 47%;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    background: var(--incos-gris-bg);
+    border: 2px solid #d4ebcb;
+    border-radius: 14px;
+    padding: 18px 24px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.obj-item .n {
+    flex: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--incos-verde-claro);
+    border: 2px solid var(--incos-verde);
+    color: var(--incos-verde);
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+/* ============================================================
+   PIE DE PÁGINA
+   ============================================================ */
+.pie {
+    position: absolute;
+    bottom: 14px;
+    left: 32px;
+    right: 32px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #93a08f;
+    border-top: 1px solid #dfe9db;
+    padding-top: 8px;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "diapos-incos",
+  "version": "1.0.0",
+  "description": "Diapositivas del Proyecto de Emprendimiento Productivo - INCOS",
+  "private": true,
+  "scripts": {
+    "start": "node servidor.cjs"
+  },
+  "dependencies": {
+    "reveal.js": "^6.0.2"
+  }
+}
