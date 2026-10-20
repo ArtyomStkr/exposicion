@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="468" height="624" preserveAspectRatio="xMinYMin meet" viewBox="0 0 468 624" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>anexo 04 objetivos</title>
+	<desc>Elaboración propia a partir del contenido del proyecto Arancel Bolivia 2026.</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="468" height="624"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-624)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="468" height="624" style="stroke: none; stroke-linecap: butt; stroke-width: 0.7; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="6" y="604.0" style="font-family: Arial; font-weight: bold; font-size: 14px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1208) scale(1,-1)">ANEXO 4 ÁRBOL DE OBJETIVOS</text>
+			<text x="6" y="578.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(21%,41%,31%); stroke:none;" transform="translate(0,1156) scale(1,-1)">COPA Fines y resultados esperados</text>
+			<polygon points="227 453, 241 453, 244 271, 224 271" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,91%,87%); fill-rule: evenodd;"/>
+			<polyline points="234 399, 234 440, 78 440, 78 471" style="stroke: rgb(34%,51%,41%); stroke-linecap: butt; stroke-width: 1.15; fill: none; fill-rule: evenodd;"/>
+			<polygon points="75.6 465.8, 78 471, 80.4 465.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,51%,41%); fill-rule: evenodd;"/>
+			<polyline points="234 399, 234 440, 234 440, 234 471" style="stroke: rgb(34%,51%,41%); stroke-linecap: butt; stroke-width: 1.15; fill: none; fill-rule: evenodd;"/>
+			<polygon points="231.6 465.8, 234 471, 236.4 465.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,51%,41%); fill-rule: evenodd;"/>
+			<polyline points="234 399, 234 440, 390 440, 390 471" style="stroke: rgb(34%,51%,41%); stroke-linecap: butt; stroke-width: 1.15; fill: none; fill-rule: evenodd;"/>
+			<polygon points="387.6 465.8, 390 471, 392.4 465.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(34%,51%,41%); fill-rule: evenodd;"/>
+			<rect x="6" y="471" width="144" height="90" rx="9" ry="9" style="stroke: rgb(49%,61%,52%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,94%); fill-rule: evenodd;"/>
+			<text x="13" y="543.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(21%,41%,31%); stroke:none;" transform="translate(0,1086) scale(1,-1)">FIN 1</text>
+			<path d="M 126 549 C 128 536 138 533 141 546 C 136 550 130 552 126 549 " style="stroke: rgb(25%,44%,35%); stroke-linecap: butt; stroke-width: 0.6; fill: none; fill-rule: evenodd;"/>
+			<polyline points="127 548, 138 539" style="stroke: rgb(25%,44%,35%); stroke-linecap: butt; stroke-width: 0.5; fill: none; fill-rule: evenodd;"/>
+			<text x="13" y="524.0" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1048) scale(1,-1)">Acceso más ágil y</text>
+			<text x="13" y="511.35" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1022) scale(1,-1)">comprensible a la</text>
+			<text x="13" y="498.7" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,997) scale(1,-1)">información arancelaria.</text>
+			<rect x="162" y="471" width="144" height="90" rx="9" ry="9" style="stroke: rgb(49%,61%,52%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,94%); fill-rule: evenodd;"/>
+			<text x="169" y="543.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(21%,41%,31%); stroke:none;" transform="translate(0,1086) scale(1,-1)">FIN 2</text>
+			<path d="M 282 549 C 284 536 294 533 297 546 C 292 550 286 552 282 549 " style="stroke: rgb(25%,44%,35%); stroke-linecap: butt; stroke-width: 0.6; fill: none; fill-rule: evenodd;"/>
+			<polyline points="283 548, 294 539" style="stroke: rgb(25%,44%,35%); stroke-linecap: butt; stroke-width: 0.5; fill: none; fill-rule: evenodd;"/>
+			<text x="169" y="524.0" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1048) scale(1,-1)">Apoyo a la consulta y al</text>
+			<text x="169" y="511.35" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1022) scale(1,-1)">cálculo en el ámbito</text>
+			<text x="169" y="498.7" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,997) scale(1,-1)">académico y profesional.</text>
+			<rect x="318" y="471" width="144" height="90" rx="9" ry="9" style="stroke: rgb(49%,61%,52%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(94%,96%,94%); fill-rule: evenodd;"/>
+			<text x="325" y="543.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(21%,41%,31%); stroke:none;" transform="translate(0,1086) scale(1,-1)">FIN 3</text>
+			<path d="M 438 549 C 440 536 450 533 453 546 C 448 550 442 552 438 549 " style="stroke: rgb(25%,44%,35%); stroke-linecap: butt; stroke-width: 0.6; fill: none; fill-rule: evenodd;"/>
+			<polyline points="439 548, 450 539" style="stroke: rgb(25%,44%,35%); stroke-linecap: butt; stroke-width: 0.5; fill: none; fill-rule: evenodd;"/>
+			<text x="325" y="524.0" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1048) scale(1,-1)">Propuesta de negocio</text>
+			<text x="325" y="511.35" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,1022) scale(1,-1)">sustentada en análisis</text>
+			<text x="325" y="498.7" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,997) scale(1,-1)">técnico y económico.</text>
+			<rect x="6" y="297" width="456" height="102" rx="3" ry="3" style="stroke: rgb(13%,29%,40%); stroke-linecap: butt; stroke-width: 1.25; fill: rgb(94%,95%,97%); fill-rule: evenodd;"/>
+			<text x="15" y="380.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(13%,29%,40%); stroke:none;" transform="translate(0,760) scale(1,-1)">TRONCO Objetivo general</text>
+			<text x="15" y="360.0" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,720) scale(1,-1)">Desarrollar una aplicación móvil para la consulta de partidas del arancel aduanero de</text>
+			<text x="15" y="347.35" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,694) scale(1,-1)">Bolivia y el cálculo de tributos correspondientes, con el propósito de optimizar el acceso a</text>
+			<text x="15" y="334.7" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,669) scale(1,-1)">información arancelaria para estudiantes, profesionales del área de comercio exterior y</text>
+			<text x="15" y="322.05" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,644) scale(1,-1)">demás usuarios interesados, mediante una herramienta digital accesible y de uso</text>
+			<text x="15" y="309.4" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,618) scale(1,-1)">eficiente.</text>
+			<text x="6" y="278.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(44%,36%,25%); stroke:none;" transform="translate(0,556) scale(1,-1)">RAÍCES Medios: objetivos específicos</text>
+			<polyline points="2 271, 390 271" style="stroke: rgb(57%,47%,35%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<polyline points="234 271, 234 297" style="stroke: rgb(57%,47%,35%); stroke-linecap: butt; stroke-width: 1.3; fill: none; fill-rule: evenodd;"/>
+			<polygon points="231.6 291.8, 234 297, 236.4 291.8" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(57%,47%,35%); fill-rule: evenodd;"/>
+			<polyline points="78 263, 78 271" style="stroke: rgb(57%,47%,35%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<polyline points="234 263, 234 271" style="stroke: rgb(57%,47%,35%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<polyline points="390 263, 390 271" style="stroke: rgb(57%,47%,35%); stroke-linecap: butt; stroke-width: 0.9; fill: none; fill-rule: evenodd;"/>
+			<polyline points="78 121, 78 127, 2 127, 2 271" style="stroke: rgb(57%,47%,35%); stroke-linecap: butt; stroke-width: 0.8; fill: none; fill-rule: evenodd;"/>
+			<polyline points="234 121, 234 127, 156 127, 156 271" style="stroke: rgb(57%,47%,35%); stroke-linecap: butt; stroke-width: 0.8; fill: none; fill-rule: evenodd;"/>
+			<polyline points="390 121, 390 127, 312 127, 312 271" style="stroke: rgb(57%,47%,35%); stroke-linecap: butt; stroke-width: 0.8; fill: none; fill-rule: evenodd;"/>
+			<rect x="6" y="133" width="144" height="130" rx="2" ry="2" style="stroke: rgb(76%,70%,61%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(98%,98%,96%); fill-rule: evenodd;"/>
+			<text x="11" y="246.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(44%,36%,25%); stroke:none;" transform="translate(0,492) scale(1,-1)">OE1</text>
+			<text x="11" y="229.0" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,458) scale(1,-1)">Facilitar la búsqueda y</text>
+			<text x="11" y="216.35000000000002" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,432) scale(1,-1)">consulta de códigos</text>
+			<text x="11" y="203.7" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,407) scale(1,-1)">arancelarios mediante una</text>
+			<text x="11" y="191.05" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,382) scale(1,-1)">interfaz que permita</text>
+			<text x="11" y="178.39999999999998" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,356) scale(1,-1)">navegar por la información</text>
+			<text x="11" y="165.75" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,331) scale(1,-1)">y comprender sus</text>
+			<text x="11" y="153.10000000000002" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,306) scale(1,-1)">resultados.</text>
+			<rect x="162" y="133" width="144" height="130" rx="2" ry="2" style="stroke: rgb(76%,70%,61%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(98%,98%,96%); fill-rule: evenodd;"/>
+			<text x="167" y="246.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(44%,36%,25%); stroke:none;" transform="translate(0,492) scale(1,-1)">OE2</text>
+			<text x="167" y="229.0" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,458) scale(1,-1)">Automatizar el cálculo de</text>
+			<text x="167" y="216.35000000000002" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,432) scale(1,-1)">tributos aduaneros a partir</text>
+			<text x="167" y="203.7" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,407) scale(1,-1)">de los datos ingresados</text>
+			<text x="167" y="191.05" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,382) scale(1,-1)">por el usuario y de las</text>
+			<text x="167" y="178.39999999999998" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,356) scale(1,-1)">tasas contempladas en el</text>
+			<text x="167" y="165.75" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,331) scale(1,-1)">alcance del sistema.</text>
+			<rect x="318" y="133" width="144" height="130" rx="2" ry="2" style="stroke: rgb(76%,70%,61%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(98%,98%,96%); fill-rule: evenodd;"/>
+			<text x="323" y="246.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(44%,36%,25%); stroke:none;" transform="translate(0,492) scale(1,-1)">OE3</text>
+			<text x="323" y="229.0" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,458) scale(1,-1)">Favorecer la consulta</text>
+			<text x="323" y="216.35000000000002" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,432) scale(1,-1)">arancelaria y el cálculo de</text>
+			<text x="323" y="203.7" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,407) scale(1,-1)">tributos sin conexión a</text>
+			<text x="323" y="191.05" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,382) scale(1,-1)">internet mediante datos</text>
+			<text x="323" y="178.39999999999998" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,356) scale(1,-1)">locales, con acceso en</text>
+			<text x="323" y="165.75" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,331) scale(1,-1)">línea para los servicios</text>
+			<text x="323" y="153.10000000000002" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,306) scale(1,-1)">complementarios que lo</text>
+			<text x="323" y="140.45000000000005" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,280) scale(1,-1)">requieran.</text>
+			<rect x="6" y="4" width="144" height="117" rx="2" ry="2" style="stroke: rgb(76%,70%,61%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(98%,98%,96%); fill-rule: evenodd;"/>
+			<text x="11" y="104.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(44%,36%,25%); stroke:none;" transform="translate(0,208) scale(1,-1)">OE4</text>
+			<text x="11" y="87.0" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,174) scale(1,-1)">Organizar el acceso digital</text>
+			<text x="11" y="74.35000000000002" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,148) scale(1,-1)">a notas, disposiciones y</text>
+			<text x="11" y="61.700000000000045" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,123) scale(1,-1)">requisitos asociados a las</text>
+			<text x="11" y="49.049999999999955" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,98) scale(1,-1)">mercancías para reducir la</text>
+			<text x="11" y="36.39999999999998" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,72) scale(1,-1)">dependencia de</text>
+			<text x="11" y="23.75" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,47) scale(1,-1)">documentos impresos</text>
+			<text x="11" y="11.100000000000023" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,22) scale(1,-1)">extensos.</text>
+			<rect x="162" y="4" width="144" height="117" rx="2" ry="2" style="stroke: rgb(76%,70%,61%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(98%,98%,96%); fill-rule: evenodd;"/>
+			<text x="167" y="104.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(44%,36%,25%); stroke:none;" transform="translate(0,208) scale(1,-1)">OE5</text>
+			<text x="167" y="87.0" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,174) scale(1,-1)">Preservar la integridad de</text>
+			<text x="167" y="74.35000000000002" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,148) scale(1,-1)">la información y la</text>
+			<text x="167" y="61.700000000000045" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,123) scale(1,-1)">estabilidad del sistema</text>
+			<text x="167" y="49.049999999999955" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,98) scale(1,-1)">mediante controles de</text>
+			<text x="167" y="36.39999999999998" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,72) scale(1,-1)">entrada, consentimiento y</text>
+			<text x="167" y="23.75" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,47) scale(1,-1)">procedimientos de</text>
+			<text x="167" y="11.100000000000023" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,22) scale(1,-1)">verificación.</text>
+			<rect x="318" y="4" width="144" height="117" rx="2" ry="2" style="stroke: rgb(76%,70%,61%); stroke-linecap: butt; stroke-width: 0.7; fill: rgb(98%,98%,96%); fill-rule: evenodd;"/>
+			<text x="323" y="104.0" style="font-family: Arial; font-weight: bold; font-size: 11px;fill: rgb(44%,36%,25%); stroke:none;" transform="translate(0,208) scale(1,-1)">OE6</text>
+			<text x="323" y="87.0" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,174) scale(1,-1)">Evaluar la viabilidad</text>
+			<text x="323" y="74.35000000000002" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,148) scale(1,-1)">técnica y económica de la</text>
+			<text x="323" y="61.700000000000045" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,123) scale(1,-1)">propuesta de negocio</text>
+			<text x="323" y="49.049999999999955" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,98) scale(1,-1)">mediante costos,</text>
+			<text x="323" y="36.39999999999998" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,72) scale(1,-1)">estimación de esfuerzo y</text>
+			<text x="323" y="23.75" style="font-family: Arial; font-size: 11px;fill: rgb(12%,16%,20%); stroke:none;" transform="translate(0,47) scale(1,-1)">escenarios de ingresos.</text>
+		</g>
+	</g>
+</svg>

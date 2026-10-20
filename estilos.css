@@ -994,3 +994,21 @@ body,
     font-size: 110px;
     font-weight: 700;
 }
+
+/* Las láminas de apoyo contienen únicamente la imagen completa. */
+.reveal .slides section.slide.imagen-anexo {
+    padding: 24px;
+}
+.reveal .slides section.slide.imagen-anexo > img {
+    position: absolute;
+    inset: 24px;
+    display: block;
+    width: calc(100% - 48px);
+    height: calc(100% - 48px);
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    object-fit: contain;
+    border: 0;
+    box-shadow: none;
+}
