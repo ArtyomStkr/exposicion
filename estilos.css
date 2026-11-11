@@ -1012,3 +1012,40 @@ body,
     border: 0;
     box-shadow: none;
 }
+
+/* Actualización del Word de noviembre: mismos puntos, orden y formato 16:9. */
+.reveal .exposition .evidencia-encuesta {
+    margin-top: 36px;
+    padding-top: 22px;
+    border-top: 1px solid #c9d4c5;
+}
+.metodologia-layout { grid-template-columns: 1.25fr .75fr; gap: 60px; }
+.metodologia-imagenes { display: grid; gap: 28px; }
+.metodologia-imagenes figure img { height: 240px; }
+.metodologia-imagenes figure figcaption { margin-top: 10px; }
+.metodologia-layout .exposition-list li { margin-bottom: 22px; }
+.capital-layout { display: grid; grid-template-columns: 1.05fr .95fr; gap: 80px; }
+.capital-layout h3 { margin-bottom: 20px; }
+.reveal .capital-layout p { margin-bottom: 24px; }
+.reveal .capital-layout table { margin: 0 0 22px; }
+.reveal .capital-layout table th, .reveal .capital-layout table td { padding: 22px 20px; }
+.capital-layout td:last-child, .capital-layout th:last-child { text-align: right; white-space: nowrap; }
+.reveal .capital-actualizado .takeaway { margin-top: 32px; margin-bottom: 22px; }
+.reveal .finanzas-actualizadas .cabecera { margin-bottom: 25px; }
+.reveal .finanzas-actualizadas table th, .reveal .finanzas-actualizadas table td { padding: 12px 20px; }
+.finanzas-actualizadas .flujos th:not(:first-child),
+.finanzas-actualizadas .flujos td:not(:first-child),
+.finanzas-actualizadas .escenarios td:nth-last-child(-n+2) { text-align: right; white-space: nowrap; }
+.escenarios-cabecera { display: flex; align-items: baseline; justify-content: space-between; margin: 26px 0 12px; gap: 30px; }
+.reveal .escenarios-cabecera h3 { margin: 0; }
+.escenarios-cabecera span { font-size: 22px; color: #52605a; }
+.reveal .slides section.finanzas-actualizadas table.escenarios { font-size: 27px; }
+.reveal .finanzas-actualizadas .hitos-financieros { margin: 20px 0 16px; }
+.reveal .finanzas-actualizadas .takeaway { margin: 0 0 16px; }
+.reveal .finanzas-actualizadas .caption { margin: 0; }
+.reveal .slides section.exposition.finanzas-actualizadas .exposition-body .caption { font-size: 22px; line-height: 1.35; }
+.reveal .conclusiones-actualizadas .cabecera { margin-bottom: 45px; }
+.reveal .conclusiones-actualizadas .lead { margin-bottom: 35px; }
+.conclusiones-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 75px; }
+.conclusiones-layout > div + div { border-left: 1px solid #c9d4c5; padding-left: 55px; }
+.conclusiones-layout .exposition-list li { margin-bottom: 23px; }
