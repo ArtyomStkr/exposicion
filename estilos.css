@@ -1084,3 +1084,30 @@ body,
 .software-calculo-layout figure img { width: 100%; height: 620px; object-fit: contain; margin: 0; }
 .software-calculo-layout figcaption { margin-top: 14px; font-size: 21px; color: #52605a; }
 .software-calculo-layout .exposition-list li { margin-bottom: 18px; }
+
+/* Objetivos específicos en cuadros, con el tamaño de texto del mazo. */
+.objetivos-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 40px; }
+.objetivos-grid > div { border-top: 7px solid #2e7d32; border-radius: 12px; padding: 20px 24px; background: #edf7ee; }
+.objetivos-grid .n { display: block; margin-bottom: 8px; font-size: 29px; font-weight: 700; color: #2e7d32; }
+.reveal .slides section.exposition .exposition-body .objetivos-grid p { margin: 0; font-size: 29px; line-height: 1.35; }
+
+/* Metodología: solo las dos imágenes ampliadas; el pie hereda 22 px del mazo. */
+.metodologia-imagenes-grandes .metodologia-layout { display: block; }
+.metodologia-imagenes-grandes .metodologia-imagenes { display: flex; gap: 70px; align-items: center; justify-content: center; }
+.metodologia-imagenes-grandes .metodologia-imagenes figure { flex: 1; margin: 0; }
+.metodologia-imagenes-grandes .metodologia-imagenes figure img { width: 100%; height: 700px; object-fit: contain; margin: 0; }
+
+/* Ficha HU-05: hereda el tamaño de tabla del mazo; solo se ajusta el aspecto. */
+.reveal .casos-uso-layout table.hu-ficha { width: 100%; margin: 0; border-collapse: collapse; }
+.hu-ficha th { background: #1a8c03; color: #fff; padding: 12px 16px; }
+.hu-ficha td { border: 1px solid #c9d4c5; padding: 10px 16px; text-align: left; vertical-align: top; line-height: 1.3; }
+
+/* Canales de difusión: logos pequeños dentro de las viñetas. */
+.canal-logo { width: 42px; height: 42px; margin-right: 10px; vertical-align: middle; object-fit: contain; }
+.mercado-layout.dos { grid-template-columns: 1.05fr .95fr; }
+
+/* Lámina 2: el texto conserva su ancho; la imagen del autor y una foto ocupan el espacio libre. */
+.objetivo-imagenes { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 38px; }
+.objetivo-imagenes figure img { width: 100%; height: 420px; object-fit: cover; border-radius: 10px; }
+.objetivo-imagenes figure.imagen-autor img { object-fit: contain; border-radius: 0; }
+
